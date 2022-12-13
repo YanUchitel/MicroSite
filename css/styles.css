@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+}
+html{
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+nav ul{
+    padding-left: 0;
+	margin-bottom: 0;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    padding:7px;
+}
+nav ul li a{
+    display: block;
+    color: black;
+    font-size: 150%;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    border-bottom: 2.5px solid rgb(24,85,221);
+    padding-bottom: 5px;
+    transition: 0.2s ease;
+}
+nav ul img{
+    width: 40%;
+    height:40%;
+}
+.image_item{
+    text-align: left;
+}
+
+
+/* styles for elements in header */
+header{
+    padding-top: 0.5%;
+}
+header table{
+    padding-left: 5%;
+    border-bottom: 2px solid rgb(24,85,221);
+}
+header table h1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 55px;
+    font-weight:500;
+}
+
+header table a{
+    font-size: 20px;
+}
+.corporation{
+    color:rgb(24,85,221);
+}
+.year{
+    color:gray;
+}
+.socials{
+    width:10%;
+    text-align: center;
+}
+.social_link{
+    margin-left: 32px;
+    margin-right: 32px;
+    display:block;    
+    padding: 13px; 
+}
+.social_link:hover{
+    background-color: rgba(24, 86, 221, 0.452);
+    transition: 0.2s ease;
+}
+
+/* styles for table elements */
+table{
+    width: 100%;
+    margin: 5% auto;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+main table td{
+    text-align: center;
+    vertical-align: top;
+    padding-bottom: 5%;
+    padding-left: 3%;
+}
+.text{
+    font-size: 20px;
+    text-align:justify;
+}
+main table th{
+    font-size: 200%;
+    text-align: left;
+    padding-left: 10%;
+    line-height: 2;
+}
+main table img{
+    width: 100%;
+    height:100%;
+}
+.side_img{
+    width: 46.5%;
+    height:46.5%;
+}
+main table tr h4{
+    color:rgb(24,85,221);
+}
+.specs{
+    text-align: left;
+}
+.specs_row td{
+    border-top: solid 10px rgb(24,85,221);
+    border-bottom: solid 10px rgb(24,85,221);
+}
+.note{
+    text-align: left;
+    display: inline;
+}
+
+
+/* style of the copyright section */
+footer table{
+    border: solid 3px rgb(16, 47, 116)
+}
+footer table img{
+    width: 25%;
+    height:25%;
+    padding-bottom: 3%;
+}
+.copyright{
+    font-size: 20px;
+    text-align:justify;
+    text-align: center;
+}
+
+/* styles for the form on the contact us page */
+form table{
+    width: 50%; 
+}
+form table td{
+    text-align: center;
+}
+
+th,
+td{
+    /* border: solid; */
+}

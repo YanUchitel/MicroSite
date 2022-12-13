@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <nav id="thisNav"></nav>
+  </head>
+
+  <body>
+    <header>
+      <table>
+        <tr>
+          <td>
+            <a class="corporation">Pioneer Corporations</a
+            ><a> | Contact Form</a>
+            <h1>Contact Us</h1>
+          </td>
+        </tr>
+      </table>
+    </header>
+    <main>
+      <h1>
+        Make sure to contact us with any inquiries you might have, and our
+        engineers will return to you as soon as possible.
+      </h1>
+      <form name="contactForm" onsubmit="test(this.form)" method="post">
+        <table align="left">
+          <tr>
+            <td>First Name:</td>
+            <td><input type="text" name="fname" value="" /></td>
+          </tr>
+          <tr>
+            <td>Last Name:</td>
+            <td><input type="text" name="lname" value="" /></td>
+          </tr>
+          <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email" value="" /></td>
+          </tr>
+          <tr>
+            <td>Phone Number:</td>
+            <td><input type="number" name="phoneNum" value="" /></td>
+          </tr>
+          <tr>
+            <td>Inquiry Subject:</td>
+            <td><input type="text" name="inqSubject" value="" /></td>
+          </tr>
+          <tr>
+            <td>Inquiry:</td>
+            <td>
+              <textarea
+                id="inq"
+                name="inq"
+                form="contactForm"
+                rows="4"
+                cols="50"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input
+                type="button"
+                name="submit"
+                value="Submit"
+                onclick="formSubmit(this.form)"
+              />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </main>
+    <footer id="thisFooter"></footer>
+    <script src="../js/form.js"></script>
+    <script src="../js/GlobalFooter.js"></script>
+    <script src="../js/GlobalNav.js"></script>
+  </body>
+</html>
